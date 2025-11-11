@@ -1,0 +1,7 @@
+@keyframes pop { 0% { transform: scale(.9); opacity: 0 } 100% { transform: scale(1); opacity: 1 } }
+.animate-pop { animation: pop .6s ease-out both }
+
+@keyframes shake { 0% { transform: translateX(0) } 25% { transform: translateX(-3px) } 50% { transform: translateX(3px) } 75% { transform: translateX(-2px) } 100% { transform: translateX(0) } }
+.shake { animation: shake .3s ease-in-out both }
+
+@keyframes float { 0% { transform: translate(0,0) scale(1); opacity:1 } 100% { transform: translate(0,-70px) scale(0.9); opacity:0 } }
