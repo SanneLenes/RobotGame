@@ -18,7 +18,7 @@
   const nextBtn = document.getElementById("nextBtn");
   const storyTitle = document.getElementById("storyTitle");
   const storyText = document.getElementById("storyText");
-  const hint = document.getElementById("hint");
+  //const hint = document.getElementById("hint");
   const confetti = document.getElementById("confetti");
   const intro = document.getElementById("intro");
   const outro = document.getElementById("outro");
@@ -89,7 +89,7 @@
     levelLabel.textContent = `level ${levelIndex + 1} van ${window.LEVELS.length}`;
     storyTitle.textContent = lvl.story.title;
     storyText.textContent = lvl.story.text;
-    hint.textContent = lvl.hint;
+    //hint.textContent = lvl.hint;
     setStepsLabel();
     setPlan();
     renderBoard();
