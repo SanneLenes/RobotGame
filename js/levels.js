@@ -6,7 +6,7 @@ window.LEVELS = [
     goal:  { r: 0, c: 2 },
     obstacles: [{ r: 1, c: 1 }],
     maxSteps: 4,
-    story: { title: "Level 1", text: "Ik ben Lina en ik heb mijn eigen robot gemaakt" },
+    story: { title: "Level 1", text: "Ik heb mijn eigen robot gemaakt" },
   },
   {
     gridSize: 3,
